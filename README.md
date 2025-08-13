@@ -19,7 +19,7 @@ Software:
 - R 4.2.3 "Shortstop Beagle" - [download](https://cran.r-project.org/bin/windows/base/old/)
 
 Notes:
-- Use aperiodic_irasa to run IRASA on a sample dataset in Jupyter Notebook.
+- Use aperiodic_irasa to run IRASA on a sample dataset in Jupyter Notebook. The sample dataset corresponds to the [working memory delayed match to sample experimental paradigm](https://github.com/elizljohnson-projects/paradigm-working-memory-dms.git).
 - Scripts used to generate and model project data are maintained in [Zachariah_Cross/Aperiodic-development-iEEG](https://github.com/Zachariah-Cross/Aperiodic-development-iEEG.git).
   - Project data contain the aperiodic slopes computed using IRASA.
   - Run the modeling scripts in R to reproduce the published results.
