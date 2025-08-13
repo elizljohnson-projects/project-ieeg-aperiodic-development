@@ -16,12 +16,10 @@ Publications or other papers using these scripts and/or data should cite the pub
 
 Software:
 - Jupyter Notebook 7.3.2
-- Python 3.10.6
-- Spyder 6.0.1
 - R 4.2.3 "Shortstop Beagle"
 
 Notes:
 - Use aperiodic_irasa to run IRASA on a sample dataset in Jupyter Notebook.
-- Scripts used to generate project data and produce published results are maintained in the [Zachariah_Cross/Aperiodic-development-iEEG](https://github.com/Zachariah-Cross/Aperiodic-development-iEEG.git) repo.
-  - Project data contain the aperiodic slopes generated using IRASA with Python in Spyder.
+- Scripts used to generate project data and produce published results are maintained in [Zachariah_Cross/Aperiodic-development-iEEG](https://github.com/Zachariah-Cross/Aperiodic-development-iEEG.git).
+  - Project data contain the aperiodic slopes computed using IRASA in Python.
   - Run the modeling scripts in R to reproduce the published results.
