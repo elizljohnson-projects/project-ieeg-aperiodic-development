@@ -1,7 +1,6 @@
-# project-ieeg-aperiodic-development
-**The development of aperiodic neural activity in the human brain**
+## The development of aperiodic neural activity in the human brain
 
-**CODE COMING SOON**
+### CODE COMING SOON
 
 Aperiodic activity reflects neural noise, with flatter slopes indexing increased noise and excitability. Using direct brain recordings in a large sample of neurosurgical patients aged 5-54 years (i.e., intracranial EEG/iEEG), we discovered that aperiodic slopes in both association and sensorimotor cortices flatten with age into young adulthood. This finding challenges models of early sensorimotor development based on brain structure. In an association region called the prefrontal cortex, attentional state modulates age effects, and age effects explain age-related improvements in memory. Findings establish how aperiodic activity develops in localized brain regions and illuminate the development of prefrontal control during adolescence in the development of attention and memory. Press release by [Medical Xpress](https://medicalxpress.com/news/2025-07-brain-neural-noise-childhood-adulthood.html).
 
@@ -16,10 +15,11 @@ Publications or other papers using these scripts and/or data should cite the pub
 
 Software:
 - Jupyter Notebook 7.3.2
-- R 4.2.3 "Shortstop Beagle"
+  - Python environment: base (root) - [download](https://www.anaconda.com/download)
+- R 4.2.3 "Shortstop Beagle" - [download](https://cran.r-project.org/bin/windows/base/old/)
 
 Notes:
 - Use aperiodic_irasa to run IRASA on a sample dataset in Jupyter Notebook.
-- Scripts used to generate project data and produce published results are maintained in [Zachariah_Cross/Aperiodic-development-iEEG](https://github.com/Zachariah-Cross/Aperiodic-development-iEEG.git).
-  - Project data contain the aperiodic slopes computed using IRASA in Python.
+- Scripts used to generate and model project data are maintained in [Zachariah_Cross/Aperiodic-development-iEEG](https://github.com/Zachariah-Cross/Aperiodic-development-iEEG.git).
+  - Project data contain the aperiodic slopes computed using IRASA.
   - Run the modeling scripts in R to reproduce the published results.
