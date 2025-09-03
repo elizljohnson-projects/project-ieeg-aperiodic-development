@@ -13,8 +13,8 @@ Publications or other papers using these scripts and/or data should cite the pub
 
 Software:
 - Jupyter Notebook 7.3.2 - [download](https://www.anaconda.com/download)
-  - Python environment: base (root)
-  - R environment
+  - Python 3.13.5 environment: base (root)
+  - R 3.6.1 environment
     - Install lme4 package using the Anaconda command line:  
       conda install -c conda-forge r-lme4
 
