@@ -17,6 +17,7 @@ Software:
   - R 3.6.1 environment
     - Install lme4 package using the Anaconda command line:  
       conda install -c conda-forge r-lme4
+- (Not tested on Google Colab)
 
 Notes:
 - Run IRASA on a sample dataset using aperiodic_irasa in the Python environment. The sample dataset is from the [working memory delayed match to sample experimental paradigm](https://github.com/elizljohnson-projects/paradigm-working-memory-dms.git).
