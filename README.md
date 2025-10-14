@@ -11,15 +11,26 @@ Project data are available on [OSF](https://osf.io/fx6ke/); download Preprocesse
 
 Publications or other papers using these scripts and/or data should cite the publication above.
 
-Software:
-- Jupyter Notebook 7.3.2 - [download](https://www.anaconda.com/download)
-  - Python 3.13.5 environment: base (root)
-  - R 3.6.1 environment
-    - Install lme4 package using the Anaconda command line:  
-      conda install -c conda-forge r-lme4
-- (Not tested on Google Colab)
+### Run using Python and R:
+Python:
+- Software: Python 3.12.12
+- Environment: Google Colab
+- Package versions:
+  - NumPy 2.0.2
+  - Pandas 2.2.2
+  - Matplotlib 3.10.0
+  - MNE 1.10.2
+  - YASA 0.6.5
+- Notebook: aperiodic_irasa.ipynb  
+
+R:
+- Software: R 3.6.1
+- Environment: Jupyter Notebook 7.3.2 - [download](https://www.anaconda.com/download)
+  - Set up using the command line:  
+  `conda install -c conda-forge r-pillar r-tidyverse r-rcolorbrewer r-broom r-lme4`
+  - CURRENTLY FIXING DEPENDENCY ISSUES 10/14/2025
 
 Notes:
-- Run IRASA on a sample dataset using aperiodic_irasa in the Python environment. The sample dataset is from the [working memory delayed match to sample experimental paradigm](https://github.com/elizljohnson-projects/paradigm-working-memory-dms.git).
-- Run the modeling scripts in the R environment to reproduce published results (slope_models, gmv_models, and memory_models).
+- Run IRASA on a sample dataset using `aperiodic_irasa.ipynb`. The sample dataset is from the [working memory delayed match to sample experimental paradigm](https://github.com/elizljohnson-projects/paradigm-working-memory-dms.git).
+- Run the modeling scripts in the R environment to reproduce published results (`slope_models`, `gmv_models`, and `memory_models`).
 - The original scripts used to generate and model project data are in [Zachariah_Cross/Aperiodic-development-iEEG](https://github.com/Zachariah-Cross/Aperiodic-development-iEEG.git).
