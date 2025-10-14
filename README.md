@@ -30,13 +30,15 @@ R:
     - `conda create -n r-env r-base=4.3 python=3.11 -c conda-forge`
     - `conda activate r-env`
     - `conda install -c conda-forge jupyterlab r-irkernel`
-    - `conda install -c conda-forge r-tidyverse r-rcolorbrewer r-broom r-lme4`
+    - `conda install -c conda-forge r-tidyverse r-rcolorbrewer r-broom r-lme4 r-lmertest r-ggridges`
     - `jupyter lab`  
 - Package versions:
   - tidyverse 2.0.0
   - RColorBrewer 1.1.3
   - broom 1.0.9
   - lme4 1.1.37
+  - lmerTest 3.1.3
+  - ggridges 0.5.7
 - Notebooks:
   - slope_models.ipynb
   - memory_models.ipynb
