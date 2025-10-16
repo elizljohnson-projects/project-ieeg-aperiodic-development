@@ -45,6 +45,6 @@ R:
   - gmv_models.ipynb
 
 Notes:
-- Run IRASA on a sample dataset using `aperiodic_irasa`. The sample dataset is from the [working memory delayed match to sample experimental paradigm](https://github.com/elizljohnson-projects/paradigm-working-memory-dms.git).
-- Run the modeling scripts to reproduce published results (`slope_models`, `memory_models`, and `gmv_models`).
+- Run IRASA on a sample dataset using `aperiodic_irasa.ipynb`. The sample dataset is from the [working memory delayed match to sample experimental paradigm](https://github.com/elizljohnson-projects/paradigm-working-memory-dms.git).
+- Run the modeling scripts to reproduce published results (`slope_models.ipynb`, `memory_models.ipynb`, and `gmv_models.ipynb`).
 - The original scripts used to generate and model project data are in [Zachariah_Cross/Aperiodic-development-iEEG](https://github.com/Zachariah-Cross/Aperiodic-development-iEEG.git).
